@@ -1,4 +1,4 @@
-## Week7 Topics:
+## Week2 Topics:
 * Implement nearest neighbor search for retrieval tasks
 * Contrast document representations
   - Bag of words
