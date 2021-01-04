@@ -17,14 +17,17 @@
 * Bag of words model, TF-IDF, Nearest Neighbor Search, KNN
 
 
-## Implementation Details of Programming Assignment:
+## Implementation Details of Programming Assignment 1:
 
-Goal: implement a logistic regression classifier using stochastic gradient ascent, mini-batch gradient ascent
+Goal: 
+  * Gain intuition for different notions of similarity and practice finding similar documents. 
+  * Explore the tradeoffs with representing documents using raw word counts and TF-IDF
+  * Explore the behavior of different distance metrics by looking at the Wikipedia pages most similar to President Obama’s page.
 
- * Find nearest neighbor of the Barack Obama page using raw word count and Euclidean distance measure
- * Explore the problem of BOW model by finding common words between neighbors and how many articles contain these common words
- * Find nearest neighbor of the Barack Obama page using TF-IDF and Euclidean distance measure
- * Explore the benefits of TF-IDF by finding common words between neighbors and how many articles contain these common words
- * Explore the problem of Euclidean distance measure by comparing the 100NN's document length
- * Find nearest neighbor of the Barack Obama page using TF-IDF and Cosine similarity(distance)
- * EXplore the problem of cosine similarity by calcuating the distance between a short tweet and a long article
+* Find nearest neighbor of the Barack Obama page using raw word count and Euclidean distance measure
+* Explore the problem of BOW model by finding common words between neighbors and how many articles contain these common words
+* Find nearest neighbor of the Barack Obama page using TF-IDF and Euclidean distance measure
+* Explore the benefits of TF-IDF by finding common words between neighbors and how many articles contain these common words
+* Explore the problem of Euclidean distance measure by comparing the 100NN's document length
+* Find nearest neighbor of the Barack Obama page using TF-IDF and Cosine similarity(distance)
+* EXplore the problem of cosine similarity by calcuating the distance between a short tweet and a long article
