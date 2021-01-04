@@ -1,19 +1,30 @@
 ## Week7 Topics:
-* Stochastic gradient ascent
-  - adapt for new data
-  - very sensitive to parameters, noisy convergence
-* Mini-batch gradient ascent 
+* Implement nearest neighbor search for retrieval tasks
+* Contrast document representations
+  - Bag of words
+  - TF-IDF
+  * In BOW, common words count could dominate rare words count, while TF-IDF penalize common words
+  * Since TF-IDF penalize frequent words, less need to deal with stop words explicitly
+* Contrast methods for measuring similarity between two documents
+  - Euclidean vs. weighted Euclidean
+  - Cosine similarity vs. similarity(unnormalized inner product)
+  * Euclidean distance are often used when features are numeric, cosine similarity is used when features are texts
+  * Using Euclidean distance might favor short text in measuring similarity
+  * Cosine similarity would ignore the text length, which is not always desired since it could make dissimilar objects appear more similar
+
 
 ## Algorithms: 
-* stochastic gradient ascent, mini-batch gradient ascent
+* Bag of words model, TF-IDF, Nearest Neighbor Search, KNN
 
 
 ## Implementation Details of Programming Assignment:
 
 Goal: implement a logistic regression classifier using stochastic gradient ascent, mini-batch gradient ascent
 
- * Extract features from Amazon product reviews.
- * Convert a dataframe into a NumPy array.
- * Write a function to compute the derivative of log likelihood function with respect to a single coefficient.
- * Implement stochastic gradient ascent and mini-batch gradient ascent
- * Compare convergence of stochastic gradient ascent with that of batch gradient ascent.
+ * Find nearest neighbor of the Barack Obama page using raw word count and Euclidean distance measure
+ * Explore the problem of BOW model by finding common words between neighbors and how many articles contain these common words
+ * Find nearest neighbor of the Barack Obama page using TF-IDF and Euclidean distance measure
+ * Explore the benefits of TF-IDF by finding common words between neighbors and how many articles contain these common words
+ * Explore the problem of Euclidean distance measure by comparing the 100NN's document length
+ * Find nearest neighbor of the Barack Obama page using TF-IDF and Cosine similarity(distance)
+ * EXplore the problem of cosine similarity by calcuating the distance between a short tweet and a long article
