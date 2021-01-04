@@ -19,10 +19,7 @@
 
 ## Implementation Details of Programming Assignment 1:
 
-Goal: 
-  * Gain intuition for different notions of similarity and practice finding similar documents. 
-  * Explore the tradeoffs with representing documents using raw word counts and TF-IDF
-  * Explore the behavior of different distance metrics by looking at the Wikipedia pages most similar to President Obama’s page.
+Goal: Gain intuition for different notions of similarity and practice finding similar documents; Explore the tradeoffs with representing documents using raw word counts and TF-IDF; Explore the behavior of different distance metrics by looking at the Wikipedia pages most similar to President Obama’s page.
 
 * Find nearest neighbor of the Barack Obama page using raw word count and Euclidean distance measure
 * Explore the problem of BOW model by finding common words between neighbors and how many articles contain these common words
